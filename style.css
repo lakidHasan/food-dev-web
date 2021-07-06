@@ -1,6 +1,11 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+section{
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
 h1{
     font-size: 40px; 
     
@@ -11,7 +16,7 @@ h1.line-height{
 span{
     color: orange;
 }
-.header-section{
+.flexible{
     display: flex;
 }
 .half-width{
@@ -29,4 +34,13 @@ width: 80%;
     padding: 10px 20px;
     border-radius: 30px;
     color:white;
+}
+img.size{
+    width: 50%;
+}
+.about-section{
+    background-image: url(/images/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
 }
