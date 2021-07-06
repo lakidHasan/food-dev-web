@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 section{
     margin-top: 50px;
@@ -8,6 +9,7 @@ section{
 }
 h1{
     font-size: 40px; 
+    color: gray;
     
 }
 h1.line-height{
@@ -35,12 +37,47 @@ width: 80%;
     border-radius: 30px;
     color:white;
 }
+.about-me{
+    margin-right: 200px;
+    text-align: center;
+
+}
 img.size{
-    width: 50%;
+    width: 60%;
+    margin-left: 100px;
 }
 .about-section{
     background-image: url(/images/Frame\ 58.jpg);
     background-repeat: no-repeat;
-    
     background-size: cover;
+    margin-top: ;
+}
+div.recipe-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+div.recipe{
+    display: flex;
+    
+}
+div img{
+    width: 100%;
+    
+}
+.box{
+    box-shadow: 10px 10px 30px gray;
+    width: 31%;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 40px;
+    padding-right: 60px;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: rgb(34, 30, 30);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
 }
